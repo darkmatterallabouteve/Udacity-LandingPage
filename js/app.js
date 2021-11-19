@@ -66,8 +66,8 @@ window.addEventListener('scroll', function(event) {
         let sectionName = section.getAttribute("data-nav");        
         let sectionTop = section.getBoundingClientRect().top;
     
-        if(last_known_scroll_position >= sectionTop - 20 
-            && last_known_scroll_position <= sectionTop + 20){
+        if(last_known_scroll_position >= sectionTop - 120 
+            && last_known_scroll_position <= sectionTop + 120){
             highlighterToggle(sectionName);
         }
     }
