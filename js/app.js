@@ -29,8 +29,10 @@ function scrollToSection(evt) {
         let topCoord = window.scrollY + 
             document.querySelector('#' + sectionId).getBoundingClientRect().top;
 
+        // Minus 20 is so it shows Section title 
+        //properly on phone screen
         window.scrollTo({
-            top: topCoord,
+            top: topCoord - 20,
             behavior: 'smooth'
           });
     }

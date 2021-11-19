@@ -62,10 +62,21 @@ section {
 
 /* ---- Module Rules ---- */
 
+@media all and (max-width: 800px) {
+    .navbar__menu {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .navbar__menu {
+        flex-flow: column wrap;
+    }
+}
+
 /* Navigation Styles*/
 .navbar__menu ul {
     display: flex;
-    flex-flow: row wrap;
     justify-content: flex-end;
     padding-left: 0;
     margin: 0;
