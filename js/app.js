@@ -23,8 +23,8 @@ function scrollToSection(evt) {
     if (evt.target.nodeName === 'A') {
         let sectionId = evt.target.getAttribute("data-sectionid");
        
-        console.log('A link was clicked with text ' 
-            + evt.target.textContent + ' sectionId=' + sectionId);
+        //console.log('A link was clicked with text ' 
+        //    + evt.target.textContent + ' sectionId=' + sectionId);
 
         let topCoord = window.scrollY + 
             document.querySelector('#' + sectionId).getBoundingClientRect().top;
@@ -41,8 +41,8 @@ for(const section of sectionList){
     let sectionName = section.getAttribute("data-nav");
     let sectionId = section.id;
 
-    console.log(`sectionName.id: ${sectionName}`);
-    console.log(`sectionId: ${sectionId}`);
+    //console.log(`sectionName.id: ${sectionName}`);
+    //console.log(`sectionId: ${sectionId}`);
 
     let newLi = document.createElement("li");
     newLi.setAttribute("class", "menu__link");
@@ -50,7 +50,7 @@ for(const section of sectionList){
     let newNavLink = document.createElement("a");
     newNavLink.setAttribute("data-sectionid", sectionId);
     newNavLink.innerHTML = sectionName;
-    newLi.appendChild(newNavLink);
+    newLi.append(newNavLink);
     navbarList.appendChild(newLi);
 }
 
