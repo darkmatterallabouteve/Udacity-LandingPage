@@ -1,6 +1,5 @@
 # Udacity-LandingPage
 
-https://github.com/navendu-pottekkat/awesome-readme/blob/master/fooooooter.png
 <img src="images/readmeheader.jpg">
 
 <!-- Describe your project in brief -->
@@ -8,8 +7,7 @@ Landing page for a blog whose navigation bar dynamically adds items for each sec
 
 # Demo-Preview
 
-<!-- Add a demo for your project -->
-https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif
+<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif">
 
 # Table of contents
 
@@ -28,8 +26,12 @@ https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif
 # Installation
 [(Back to top)](#table-of-contents)
 
+Clone repo on your harddrive using GIT and open index.html in your browser.
+
 # Usage
 [(Back to top)](#table-of-contents)
+
+Open index.html in your browser.
 
 # Development
 [(Back to top)](#table-of-contents)
@@ -51,4 +53,4 @@ https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif
 [(Back to top)](#table-of-contents)
 Leave a star in GitHub, give a clap in Medium and share this guide if you found this helpful.
 
-https://github.com/navendu-pottekkat/awesome-readme/blob/master/fooooooter.png
+<img src="https://github.com/navendu-pottekkat/awesome-readme/blob/master/fooooooter.png">
