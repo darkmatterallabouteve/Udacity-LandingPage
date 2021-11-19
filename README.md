@@ -1,6 +1,7 @@
 # Udacity-LandingPage
 
 https://github.com/navendu-pottekkat/awesome-readme/blob/master/fooooooter.png
+<img src="images/readmeheader.jpg">
 
 <!-- Describe your project in brief -->
 Landing page for a blog whose navigation bar dynamically adds items for each section on the page. Also will highlight the nav-bar for which section is currently in the viewport of the browser.
