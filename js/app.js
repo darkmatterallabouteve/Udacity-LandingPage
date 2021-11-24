@@ -42,7 +42,7 @@ for(const section of sectionList){
     let sectionId = section.id;
     let newLi = document.createElement("li");
 
-    newLi.setAttribute("class", "menu__link");
+    newLi.setAttribute("class", "menu__link navhover");
 
     let newNavLink = document.createElement("a");
     newNavLink.setAttribute("data-sectionid", sectionId);
@@ -80,8 +80,10 @@ function highlighterToggle(highlightSectionName) {
     for(const navItem of navItemList){
         if(navItem.textContent == highlightSectionName){
             navItem.classList.add("highlight");
+            navItem.classList.remove("navhover");            
         } else {
             navItem.classList.remove("highlight");
+            navItem.classList.add("navhover");
         }
     }
 
